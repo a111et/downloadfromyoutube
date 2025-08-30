@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Download From YouTube</title>
+    <link rel="icon" href="DownloadFromYoutube.ico" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+        h1, h2 {
+            color: #b3fcac;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h2 {
+            font-size: 22px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin: 10px 0;
+        }
+        ol, ul {
+            margin-left: 20px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        b {
+            color: #b3fcac;
+        }
+        .highlight {
+            color: #a0d8ef;
+            font-weight: bold;
+        }
+        a {
+            color: #66ccff;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #ffcc66;
+            text-decoration: underline;
+        }
+        /* оформление для команд и названий файлов */
+        .code {
+            font-family: Consolas, monospace;
+            background: #2b2b2b;
+            color: #ffd966;
+            padding: 2px 6px;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Скачивайте видео с YouTube в контекстном меню</h1>
+        
+        <p>Представляю вам удобный скрипт для загрузки видео с YouTube. С его помощью вы можете сохранить как полное видео, так и только его звуковую дорожку.</p>
+        
+        <h2>Как пользоваться скриптом?</h2>
+        <ol>
+            <li><b>Скопируйте ссылку</b> на нужное вам видео.</li>
+            <li><b>Перейдите в папку</b>, куда хотите скачать файл, через проводник (<span class="code">"Мой компьютер"</span>).</li>
+            <li><b>Нажмите правую кнопку мыши</b> в папке и выберите <span class="code">Скачать с YouTube</span>.</li>
+            <li><b>Выберите один из вариантов скачивания:</b></li>
+        </ol>
+        <ul>
+            <li><b>Видео</b>: Скачивает полное видео в максимальном качестве.</li>
+            <li><b>Видео с aria2c</b>: То же, что и "<b>Видео</b>", но качает быстрее, так как делит загрузку файла на части.</li>
+            <li><b>Аудио</b>: Скачивает только звуковую дорожку в максимальном качестве.</li>
+            <li><b>Аудио с aria2c</b>: То же, что и "<b>Аудио</b>", но качает быстрее, так как делит загрузку файла на части.</li>
+        </ul>
+
+        <h2>Установка скрипта</h2>
+        <p>Установка скрипта предельно проста. Достаточно запустить один из предложенных установочных файлов:</p>
+        <ul>
+            <li><span class="code">_install_DFY.cmd</span>: Добавляет пункт в контекстное меню.</li>
+            <li><span class="code">_install_DFY_shift.cmd</span>: Добавляет пункт в контекстное меню, но чтобы было видно, нужно зажать <b>Shift</b>.</li>
+        </ul>
+
+        <h2>Удаление скрипта</h2>
+        <p>Удаление скрипта ещё проще, чем его установка. Достаточно запустить файл <span class="code">_uninstal.cmd</span>.</p>
+
+        <h2>Если возникают ошибки</h2>
+        <p>Если появляются ошибки, скорее всего, нужно обновить <a href="https://github.com/yt-dlp/yt-dlp/releases" target="_blank"><span class="code">yt-dlp.exe</span></a>. Или попробуйте включить VPN.</p>
+
+        <p class="highlight">Приятного скачивания!</p>
+
+        <h2>Ссылки</h2>
+        <p>Ссылка на оригинальный проект: <a href="https://win10tweaker.ru/forum/topic/downloadfromyoutube" target="_blank">DownloadFromYoutube</a>.</p>
+        <p>Ссылка на мой проект, доработанный под меня: <a href="https://github.com/a111et/downloadfromyoutube/releases" target="_blank">Github</a>.</p>
+    </div>
+</body>
+</html>
