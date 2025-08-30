@@ -49,3 +49,7 @@
 - [Оригинальный проект DownloadFromYoutube](https://win10tweaker.ru/forum/topic/downloadfromyoutube)  
 - [Мой проект на Github](https://github.com/a111et/downloadfromyoutube/releases)  
 
+## В проекте используется
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp/)
+- [aria2](https://github.com/aria2/aria2)
+- [FFmpeg](https://github.com/BtbN/FFmpeg-Builds)
