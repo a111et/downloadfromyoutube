@@ -1,6 +1,6 @@
 [Русский 🇷🇺 ](README_RU.md) | [English 🇬🇧 ](README.md)
 
-### > **⚠️ The script itself is NOT translated into English.**
+> **⚠️ The script itself is NOT translated into English.**
 
 # Download YouTube videos from the Windows 10/11 context menu
 
