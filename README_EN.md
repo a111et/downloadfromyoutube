@@ -1,4 +1,4 @@
-[Русский 🇷🇺 ](README_RU.md) | [English 🇬🇧 ](README.md)
+[Русский 🇷🇺 ](README.md) | [English 🇬🇧 ](README_EN.md)
 
 > **⚠️ The script itself is NOT translated into English.**
 
