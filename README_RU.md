@@ -1,4 +1,4 @@
-[Русский 🇷🇺 ](README_RU.md) | [English 🇬🇧 ](README.md)
+[Русский 🇷🇺 ](README.md) | [English 🇬🇧 ](README_EN.md)
 
 # Скачивайте видео с YouTube в контекстном меню Windows 10/11
 
